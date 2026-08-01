@@ -1,0 +1,135 @@
+{
+  "timestamp": "2026-08-01T16:00:29.897268",
+  "host": "HarshitGupta",
+  "os": "Windows 10",
+  "cpu": {
+    "overall": 25.4,
+    "per_core": [
+      14.8,
+      23.1,
+      76.9,
+      11.5,
+      30.8,
+      3.8,
+      34.6,
+      7.7
+    ],
+    "freq_current": 2419.0,
+    "freq_max": 2419.0,
+    "ctx_switches": 66294279,
+    "interrupts": 27482322,
+    "style": "ok"
+  },
+  "memory": {
+    "total": 8299257856,
+    "used": 7102021632,
+    "available": 1197236224,
+    "percent": 85.6,
+    "swap_total": 18976395264,
+    "swap_used": 528867328,
+    "swap_percent": 2.8,
+    "style": "warn"
+  },
+  "disks": [
+    {
+      "device": "C:\\",
+      "mountpoint": "C:\\",
+      "fstype": "NTFS",
+      "total": 238225977344,
+      "used": 181686026240,
+      "free": 56539951104,
+      "percent": 76.3,
+      "style": "ok"
+    },
+    {
+      "device": "D:\\",
+      "mountpoint": "D:\\",
+      "fstype": "NTFS",
+      "total": 263968518144,
+      "used": 8480223232,
+      "free": 255488294912,
+      "percent": 3.2,
+      "style": "ok"
+    },
+    {
+      "device": "E:\\",
+      "mountpoint": "E:\\",
+      "fstype": "NTFS",
+      "total": 368049123328,
+      "used": 131594682368,
+      "free": 236454440960,
+      "percent": 35.8,
+      "style": "ok"
+    },
+    {
+      "device": "F:\\",
+      "mountpoint": "F:\\",
+      "fstype": "NTFS",
+      "total": 368049123328,
+      "used": 41090826240,
+      "free": 326958297088,
+      "percent": 11.2,
+      "style": "ok"
+    }
+  ],
+  "network": {
+    "bytes_sent": 92001499,
+    "bytes_recv": 159498593,
+    "packets_sent": 74905,
+    "packets_recv": 179822,
+    "errin": 0,
+    "errout": 0,
+    "dropin": 0,
+    "dropout": 0
+  },
+  "temperatures": [],
+  "top_processes": [
+    {
+      "memory_percent": 9.870762111671881e-05,
+      "status": "running",
+      "cpu_percent": 639.1,
+      "name": "System Idle Process",
+      "pid": 0
+    },
+    {
+      "memory_percent": 0.437373469168181,
+      "status": "running",
+      "cpu_percent": 76.4,
+      "name": "python.exe",
+      "pid": 1264
+    },
+    {
+      "memory_percent": 7.778061836376325,
+      "status": "running",
+      "cpu_percent": 15.7,
+      "name": "Antigravity IDE.exe",
+      "pid": 5004
+    },
+    {
+      "memory_percent": 0.9610667530029325,
+      "status": "running",
+      "cpu_percent": 14.3,
+      "name": "dwm.exe",
+      "pid": 1748
+    },
+    {
+      "memory_percent": 0.2629571026549389,
+      "status": "running",
+      "cpu_percent": 14.3,
+      "name": "svchost.exe",
+      "pid": 2396
+    }
+  ],
+  "config_used": {
+    "cpu_warn": 70,
+    "cpu_crit": 90,
+    "mem_warn": 75,
+    "mem_crit": 90,
+    "disk_warn": 80,
+    "disk_crit": 95,
+    "temp_warn": 75,
+    "temp_crit": 90,
+    "interval": 2,
+    "top_procs": 5
+  }
+}
